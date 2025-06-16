@@ -1,16 +1,17 @@
-# curoai_app
+# CuroAI Flutter App
 
-A new Flutter project.
+A simple prototype goal submission page that allows the user to enter a goal and a deadline. Sends data to a mock API using a POST request.
 
-## Getting Started
+## Features
+- Text input for goal
+- Date picker (future dates only)
+- Submit button (sends POST request)
 
-This project is a starting point for a Flutter application.
+## Tech
+- Flutter
+- HTTP package
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Run
+```bash
+flutter pub get
+flutter run
